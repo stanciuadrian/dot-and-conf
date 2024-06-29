@@ -1,0 +1,11 @@
+{
+    "git.autofetch": true,
+    "editor.fontFamily": "'Berkeley Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "vale.enableSpellcheck": true,
+    "telemetry.telemetryLevel": "off",
+    "gitlens.telemetry.enabled": false,
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+}
