@@ -1,11 +1,33 @@
 {
-    "git.autofetch": true,
     "editor.fontFamily": "'Berkeley Mono', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+
     "workbench.startupEditor": "none",
-    "vale.enableSpellcheck": true,
+
     "telemetry.telemetryLevel": "off",
     "gitlens.telemetry.enabled": false,
-    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "redhat.telemetry.enabled": false,
+
+    "workbench.colorTheme": "Visual Studio Light",
+
+    "git.autofetch": true,
+    "git.allowForcePush": true,
+    "git.openRepositoryInParentFolders": "always",
+
+    "cmake.configureOnOpen": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.configureOnEdit": false,
+    "[cmake]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "cheshirekow.cmake-format"
+    },
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
 }
